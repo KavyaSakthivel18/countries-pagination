@@ -3,5 +3,6 @@ export const API_URL =
 
 export const ITEMS_PER_PAGE = 16;
 
-export const x =import.meta.env.variable;
+export const x = import.meta.env.VITE_API_KEY;
+
 
